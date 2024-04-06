@@ -21,7 +21,8 @@ using the unpacking operator '*' helps with code readibility and flexibility
 '''
 
 def zip_function(question, answer):
-    for q, a in zip(*question, *answer):
+    for q, a in zip(question, answer):
         print(f'what is your {q}, it is {a}')
 
-zip_function(['age', 22], ['age', 50])
+que, ans = ['age', 22], ['age', 50]
+zip_function(*zip(que, ans))

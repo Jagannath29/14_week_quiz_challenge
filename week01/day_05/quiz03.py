@@ -14,3 +14,7 @@ def reset_uname_and_pass():
 
 reset_uname_and_pass()
 
+'''
+The all(iterable) function is bultin-function that returns True if all items in iterable is True.
+'''
+
